@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/Results-Summary)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/results-summary)
+- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/results-summary/)
 
 ## My process
 
