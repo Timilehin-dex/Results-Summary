@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <main class="h-screen sm:grid sm:place-content-center">
+      <section
+        class="block sm:flex max-w-2xl rounded-none sm:rounded-3xl shadow-custom"
+      >
+        <div
+          class="grid gap-8 content-start bg-gradient-to-b from-gradients-lightSlateBlue to-gradients-lightRoyalBlue text-center basis-1/2 rounded-b-3xl sm:rounded-3xl p-8"
+        >
+          <h5 class="text-neutral-lightLavender font-semibold">Your Results</h5>
+          <div class="flex justify-center">
+            <div
+              class="bg-gradient-to-b from-gradients-violetBlue to-gradients-persianBlue rounded-full w-48 aspect-square grid place-content-center"
+            >
+              <p class="text-neutral-lightLavender">
+                <span class="text-white text-6xl block font-black">76</span>
+                of 100
+              </p>
+            </div>
+          </div>
+          <div class="grid gap-4 content-start">
+            <p class="text-neutral-white text-2xl font-bold">Great</p>
+            <p class="text-neutral-lightLavender px-6">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="grid gap-8 content-start basis-1/2 p-8">
+          <h2 class="text-neutral-darkGrayBlue text-2xl font-bold">Summary</h2>
+
+          <div class="grid gap-4">
+            <!--  -->
+            <div
+              class="rounded-lg p-4 flex justify-between items-center bg-[#FEF6F6]"
+            >
+              <div class="flex items-center gap-2 flex-wrap">
+                <img src="/assets/images/icon-reaction.svg" alt="" />
+                <h5 class="text-primary-lightRed">Reaction</h5>
+              </div>
+              <p class="font-black text-gray-400">
+                <span class="text-neutral-darkGrayBlue">80</span> / 100
+              </p>
+            </div>
+            <!--  -->
+            <div class="rounded-lg p-4 flex justify-between bg-[#FFFBF3]">
+              <div class="flex items-center gap-2 flex-wrap">
+                <img src="/assets/images/icon-memory.svg" alt="" />
+                <h5 class="text-primary-orangeyYellow">Memory</h5>
+              </div>
+              <p class="font-black text-gray-400">
+                <span class="text-neutral-darkGrayBlue">92</span> / 100
+              </p>
+            </div>
+            <!--  -->
+            <div class="rounded-lg p-4 flex justify-between bg-[#F4FAFA]">
+              <div class="flex items-center gap-2 flex-wrap">
+                <img src="/assets/images/icon-verbal.svg" alt="" />
+                <h5 class="text-primary-greenTeal">Verbal</h5>
+              </div>
+              <p class="font-black text-gray-400">
+                <span class="text-neutral-darkGrayBlue">61</span> / 100
+              </p>
+            </div>
+            <!--  -->
+            <div class="rounded-lg p-4 flex justify-between bg-[#F3F3FC]">
+              <div class="flex items-center gap-2 flex-wrap">
+                <img src="/assets/images/icon-visual.svg" alt="" />
+                <h5 class="text-primary-cobaltBlue">Visual</h5>
+              </div>
+              <p class="font-black text-gray-400">
+                <span class="text-neutral-darkGrayBlue">72</span> / 100
+              </p>
+            </div>
+            <!--  -->
+          </div>
+          <button
+            class="bg-neutral-darkGrayBlue text-neutral-white rounded-3xl w-full py-3 cursor-pointer hover:bg-gradient-to-b from-gradients-lightSlateBlue to-gradients-lightRoyalBlue transition"
+          >
+            Continue
+          </button>
+        </div>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Olusoyemi Timilehin</a>.
+      </div>
+    </main>
+  </body>
+</html>
